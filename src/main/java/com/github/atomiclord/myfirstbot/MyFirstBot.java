@@ -8,7 +8,7 @@ public class MyFirstBot {
     public static void main(String[] args){
         // Log the bot in
         DiscordApi api = new DiscordApiBuilder()
-                .setToken("MTA2ODMwNTc2NjE1MjQxMzE4NA.G3Exf1.4lTxpo_qUEwjQW68u2TBBsAZfbr3epVgVrCECg")
+                .setToken(args[0])
                 .addIntents(Intent.MESSAGE_CONTENT)
                 .login().join();
 

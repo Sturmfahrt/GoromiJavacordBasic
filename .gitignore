@@ -26,3 +26,4 @@ replay_pid*
 # extra shit we dont need
 target/
 out/
+dependency-reduced-pom.xml
